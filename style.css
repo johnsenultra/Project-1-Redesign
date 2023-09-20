@@ -1,20 +1,41 @@
-/* body {
-    width: 100%;
-    height: 100%;
-    background: url(BlobBG/orange.svg);
-    background-repeat: no-repeat;
+body {
+    font-family: Helvetica, sans-serif !important;
+    overflow-x: hidden;
+}
+section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.inputField {
-    width: 18rem;
-} */
-
-
-.img {
-    position: absolute;
+.orange {
+    color: #fff;
+    background: #ED7014;
+}
+.wave {
+    position: relative;
     top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
-.orangeBg {
-    height: 60%;
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(218% + 1.3px);
+    height: 200px;
+}
+.wave .shape-fill {
+    fill: #ED7014;
+}
+/* .heroImg {
+    position: relative;
+    display: block;
+} */
+.container {
+    position: relative;
+    display: block;
+}
+.container i {
+    font-size: 3rem;
 }
