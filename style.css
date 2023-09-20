@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, sans-serif !important;
     overflow-x: hidden;
+
 }
 section {
     display: flex;
@@ -38,4 +39,7 @@ section {
 }
 .container i {
     font-size: 3rem;
+}
+.fontSize {
+    font-size: 12px;
 }
