@@ -29,17 +29,36 @@ section {
 .wave .shape-fill {
     fill: #ED7014;
 }
-/* .heroImg {
+
+.shopified {
     position: relative;
-    display: block;
-} */
-.container {
-    position: relative;
-    display: block;
 }
+.shopified img{
+    position: absolute;
+    margin: -25vh 40vw;
+    z-index: 1;
+}
+
+
+
 .container i {
     font-size: 3rem;
 }
 .fontSize {
     font-size: 12px;
 }
+@media only screen and (max-width: 480px) {
+    .sponsor {
+        width: 100vw !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+} 
+/* position: absolute;
+
+margin: -30vh 35vw;
+
+z-index: 1;
+} */
